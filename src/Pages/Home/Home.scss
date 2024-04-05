@@ -1,0 +1,12 @@
+body{
+    overflow-x: hidden;
+}
+.wrapper{
+    width: fit-content;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 500px;
+}
