@@ -1,0 +1,40 @@
+.profile{
+    display: inline-block;
+    & > h1{
+        margin: 10px 400px;
+        font-size: 4rem;
+        font-weight: 400;
+    }
+    .watch{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 100px;
+        & > img{
+            width: 300px;
+            padding-right: 100px;
+            border-right: solid lightgray 1px;
+        }
+        & > div{
+            margin-left: 50px;
+            & > p{
+                font-weight: 500;
+                font-size: 1.3rem;
+                border: 1px inset;
+                border-radius: 15px;
+                width: fit-content;
+                height: fit-content;
+                padding: 5px;
+            }
+            .about{
+                font-weight: 400;
+                font-size: 1rem;
+            }
+            .btn{
+                font-size: 1.5rem;
+                border: 1px inset;
+                border-radius: 15px;
+                margin-top: 200px;
+            }
+        }
+    }
+}

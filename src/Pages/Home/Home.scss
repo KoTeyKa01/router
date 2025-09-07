@@ -1,12 +1,35 @@
 body{
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
-.wrapper{
-    width: fit-content;
-    border: solid black;
+.home{
     display: flex;
-    flex-direction: column;
-}
-img{
-    width: 500px;
+    padding: 10px 56px;
+    .leftside{
+        width: 30%;
+        width: 400px;
+        & > ul{
+            list-style-type: none;
+        }
+        .watches{
+            display: flex;
+            gap: 50px;
+            & > button{
+                display: flex;
+                flex-direction: column;
+                & > img{
+                    width: 50px;
+                    padding: 20px;
+                    margin: 8px;
+                }
+            }
+        }    
+    }
+    .rightside{
+        width: 70%;
+        .wrapper{
+            width: 1000px;
+        }
+    }
 }
